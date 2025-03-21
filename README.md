@@ -16,8 +16,5 @@
    ```
 
 ## 2: Tips from the tuitorials:
-1) Check the parameters in a specific PDK that can be changed Take siepic_forge as an example. Type
-   ```
-   siepic_forge.ebeam?
-   ``` will return the parameters.
+1) Check the parameters in a specific PDK that can be changed Take siepic_forge as an example. Type ```siepic_forge.ebeam? ``` will return the parameters.
 3) The definition of the inported PDK, Given ```pf.config.default_technology=siepic_forge.ebeam()```, we can look at its defitions for layers/ extrusion specs/ ports/ background medium by ```pf.config.default_technology.layers```.etc.
