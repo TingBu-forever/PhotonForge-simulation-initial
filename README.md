@@ -3,7 +3,7 @@
 ## 1: Installation
 1) install Tidy3D, and run an example in  https://docs.flexcompute.com/projects/tidy3d/en/latest/
 2) install
-    '''
+   '''ruby
    pip install "photonforge[live_viewer]"
    '''
 5) install some PDKs [**pip install siepic-forge**] and [**pip install luxtelligence-lnoi400-forge**]
