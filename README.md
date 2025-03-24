@@ -1,7 +1,7 @@
 # PhotonForge-simulation-startup
 
 ## 1: Installation
-1) install Tidy3D, and run an example in  https://docs.flexcompute.com/projects/tidy3d/en/latest/
+1) install Tidy3D, and run an example provided in the (website)[https://docs.flexcompute.com/projects/tidy3d/en/latest/]
 2) 
    ```
    pip install "photonforge[live_viewer]"
