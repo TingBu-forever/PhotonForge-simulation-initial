@@ -25,4 +25,9 @@
       c) add a layer by defining its layer number, description, color and patter, ```new_layer=pf.LayerSpec(layer=(X,X),description="XXXX",color=(204,255,204,1),pattern="XX")``` and ```tech.addlayer("###your layer name###",new_layer)```. Delete the layer by ```tech.remove_layer("###your layer name###")```
 ### Ports
 Similar to the PDK, we can check the ports by ```tech.ports```. Check the [link](https://docs.flexcompute.com/projects/photonforge/en/latest/_autosummary/photonforge.PortSpec.html#photonforge.PortSpec.polarization) for more information of the parameters for the port.
+Specifically, we can define our own ports specs by 
+```
+xxx=pf.PortSpec("XXXX", width=x,limits=[x,x],num_modes=x,target_neff=x,path_ptofiles={})#(width, offset,layer)
+````
+
    
