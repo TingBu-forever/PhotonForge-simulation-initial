@@ -31,7 +31,7 @@ Specifically, we can define our own ports specs by
 xxx=pf.PortSpec("XXXX", width=x,limits=[x,x],num_modes=x,target_neff=x,path_profiles={})
 #the path profiles contain the (width, offset,layer) for the cladding and core.
 ````
-1) add a port by
+1) Add a port by
    ```
    port0 = pf.Port(center=(0, 0), input_direction=0, spec="Slot")
    #"Slot" can be changed to the name of your customized name like slot, slot= pf.PortSpec(.....);
@@ -39,11 +39,17 @@ xxx=pf.PortSpec("XXXX", width=x,limits=[x,x],num_modes=x,target_neff=x,path_prof
    # Set the port name to "P0"
    connection.add_port(port0, "P0")
    ```
-2) auto-detection of ports
+2) Auto-detection of ports
    ```
    detected_ports = connection.detect_ports(["Slot"])
    detected_ports
    connection.add_port(detected_ports[0], "P1")
    ```
-   
+### Load components
+   1) load the componnet from PDK:
+      ```
+      pf.config.default_technology = siepic.ebeam()
+      siepic.component_names# check all the components name
+      the_component=siepic.component("the_name_of_component")
+
    
