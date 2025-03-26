@@ -31,7 +31,7 @@ Specifically, we can define our own ports specs by
 xxx=pf.PortSpec("XXXX", width=x,limits=[x,x],num_modes=x,target_neff=x,path_profiles={})
 #the path profiles contain the (width, offset,layer) for the cladding and core.
 ````
-1) Add a port by
+1) Add a port
    ```
    port0 = pf.Port(center=(0, 0), input_direction=0, spec="Slot")
    #"Slot" can be changed to the name of your customized name like slot, slot= pf.PortSpec(.....);
