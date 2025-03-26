@@ -1,5 +1,5 @@
 # PhotonForge-simulation-startup
-The note is to created to have quick access to photonforge simulation for new leaners. The materials below are from the user guides and xxx.
+The note is to created to have quick access to photonforge simulation for new leaners. The materials below are from the user guides and my experience.
 
 ## 1: Installation
 1) install Tidy3D, and run an example provided in the [website](https://docs.flexcompute.com/projects/tidy3d/en/latest/)
