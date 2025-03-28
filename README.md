@@ -52,7 +52,8 @@ xxx=pf.PortSpec("XXXX", width=x,limits=[x,x],num_modes=x,target_neff=x,path_prof
       siepic.component_names# check all the components name
       the_component=siepic.component("the_name_of_component")
 
-###  
+###  Custom Parametric Components
+#### the angle setting for path.arc 
 ```
 path=pf.Path((0, 0), 0.5)
 path.arc(0, -90, 5, euler_fraction=0.5)
