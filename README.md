@@ -54,6 +54,8 @@ xxx=pf.PortSpec("XXXX", width=x,limits=[x,x],num_modes=x,target_neff=x,path_prof
 
 ###  Custom Parametric Components
 #### the angle setting for path.arc 
+the plot are different when the second angle are set to -90 and 270 degree.
+When it is -90:
 ```
 path=pf.Path((0, 0), 0.5)
 path.arc(0, -90, 5, euler_fraction=0.5)
@@ -62,6 +64,7 @@ path.arc(0, -90, 5, euler_fraction=0.5)
 <img width="150" alt="Screenshot 2025-03-28 at 3 48 49 PM" src="https://github.com/user-attachments/assets/dd4c5840-3c16-40f8-8cdd-5d786bcd2154" />
 
 ```
+when it is 270:
 path=pf.Path((0, 0), 0.5)
 path.arc(0, 270, 5, euler_fraction=0.5)
 ```
