@@ -53,6 +53,7 @@ xxx=pf.PortSpec("XXXX", width=x,limits=[x,x],num_modes=x,target_neff=x,path_prof
       the_component=siepic.component("the_name_of_component")
 
 ###  Custom Parametric Components
+It is useful to change the internally-used instances by using "update"function in the customized parametric components
 #### the angle setting for path.arc 
 the plot are different when the second angle are set to -90 and 270 degree.
 When it is -90:
