@@ -59,14 +59,14 @@ path=pf.Path((0, 0), 0.5)
 path.arc(0, -90, 5, euler_fraction=0.5)
 ```
 
-<img width="200" alt="Screenshot 2025-03-28 at 3 48 49 PM" src="https://github.com/user-attachments/assets/dd4c5840-3c16-40f8-8cdd-5d786bcd2154" />
+<img width="150" alt="Screenshot 2025-03-28 at 3 48 49 PM" src="https://github.com/user-attachments/assets/dd4c5840-3c16-40f8-8cdd-5d786bcd2154" />
 
 ```
 path=pf.Path((0, 0), 0.5)
 path.arc(0, 270, 5, euler_fraction=0.5)
 ```
 
-<img width="200" alt="Screenshot 2025-03-28 at 3 49 04 PM" src="https://github.com/user-attachments/assets/0d929193-43fe-4033-bde7-cdc0867eeaac" />
+<img width="150" alt="Screenshot 2025-03-28 at 3 49 04 PM" src="https://github.com/user-attachments/assets/0d929193-43fe-4033-bde7-cdc0867eeaac" />
 
 
 
